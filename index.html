@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <button id="theme-toggle">🌙 Dark Mode</button>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://via.placeholder.com/150" alt="Profile picture of me" />
+      <p>Hello! I am an aspiring web developer passionate about creating accessible and responsive websites.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <article>
+        <h3>Project 1</h3>
+        <p>A simple web project I built using HTML, CSS, and JavaScript.</p>
+      </article>
+      <article>
+        <h3>Project 2</h3>
+        <p>A responsive website designed to showcase my skills.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
